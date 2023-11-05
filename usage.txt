@@ -1,7 +1,7 @@
 !info!: doom is a 8bit color game, u cant run it on a normal monitor, soo we are going to emulete a monitor with xephyr
 
 install xephir (Debian: sudo apt install xserver-xephyr; Arch: sudo pacman -S xserver-xephyr)
-run xephir (sudo Xephyr :2 -ac -screen 640x480x4)
-go on the directory linuxdoom-1.10
+run xephir (sudo Xephyr :2 -ac -screen 640x480x8)
+go on the directory linuxdoom-1.10 (cd linuxdoom-1.10)
 set display 2 (DISPLAY=:2)
 run doom on display 2 (./linux/linuxxdoom -2)
